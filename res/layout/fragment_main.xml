@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:text="@string/section_1_num_title"
+        android:gravity="center_vertical|left"
+        android:onClick="goToSection"
+        android:tag="1" />
+    <Button
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:text="@string/section_2_num_title"
+        android:gravity="center_vertical|left"
+        android:onClick="goToSection"
+        android:textScaleX=".93"
+        android:tag="2" />
+    <Button
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:text="@string/section_3_num_title"
+        android:gravity="center_vertical|left"
+        android:onClick="goToSection"
+        android:tag="3" />
+    <Button
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:text="@string/section_4_num_title"
+        android:gravity="center_vertical|left"
+        android:onClick="goToSection"
+        android:tag="4" />
+    <Button
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:text="@string/section_5_num_title"
+        android:gravity="center_vertical|left"
+        android:onClick="goToSection"
+        android:tag="5" />
+    <Button
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:text="@string/section_6_num_title"
+        android:gravity="center_vertical|left"
+        android:onClick="goToSection"
+        android:tag="6" />
+    <Button
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:text="@string/section_7_num_title"
+        android:gravity="center_vertical|left"
+        android:onClick="goToSection"
+        android:tag="7" />
+    <Button
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:text="@string/section_8_num_title"
+        android:gravity="center_vertical|left"
+        android:onClick="goToSection"
+        android:tag="8" />
+    <Button
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:text="@string/section_9_num_title"
+        android:gravity="center_vertical|left"
+        android:onClick="goToSection"
+        android:tag="9" />
+    <Button
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:text="@string/section_10_num_title"
+        android:gravity="center_vertical|left"
+        android:onClick="goToSection"
+        android:tag="10" />
+</LinearLayout>
